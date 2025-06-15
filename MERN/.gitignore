@@ -1,0 +1,46 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+public/build/
+coverage/
+
+# MongoDB
+dump/
+*.seed.js
+
+# VSCode
+.vscode/
+
+# Misc
+*.sublime-workspace
+*.sublime-project
+
+# React
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Next.js
+.next/
+out/
