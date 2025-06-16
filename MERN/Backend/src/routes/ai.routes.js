@@ -2,7 +2,7 @@ const exporess=require('express');
 const router=exporess.Router();
 const aiController=require('../controllers/ai.controller');
 
-router.get('/get-response', aiController.getResponse);
+router.post('/get-review', aiController.getReview);
 
 
 router.get('/', (req, res) => {
